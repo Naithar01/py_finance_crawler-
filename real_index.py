@@ -9,6 +9,8 @@ tables = pd.read_html(url, encoding='euc-kr') # UTF-8
 
 select_table = tables[0]
 
+print(select_table)
+
 # 데이터들, 2차원 배열 
 select_table_item_name = select_table[['상품명']].values
 select_table_now_price = select_table[['현재가']].values
@@ -20,9 +22,6 @@ price_data = []
 for i in range(3):
     name_date_data.append(select_table_item_name[i][0] + "\n" + select_table_date[i][0])
     price_data.append(select_table_now_price[i][0])
-
-print(name_date_data)
-print(price_data)
 
 
 plt.rc('font', family="Malgun Gothic") # 한글 폰트 깨짐 오류 해결코드
