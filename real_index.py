@@ -29,7 +29,7 @@ plt.rc('font', family="Malgun Gothic") # 한글 폰트 깨짐 오류 해결코�
 x = name_date_data
 y = price_data
 
-plt.bar(x, y) 
+plt.bar(x, y) # 막대 그래프 그리기
 
 plt.title("유가 시세 막대 그래프")
 plt.xlabel("상품명 - 기준일")
