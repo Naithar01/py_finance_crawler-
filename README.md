@@ -6,3 +6,4 @@
 
 # 코스피 200 과제 링크 
 - http://www.paxnet.co.kr/stock/sise/KOSPI200
+- 콘솔 지우기     display.clear_output()
