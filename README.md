@@ -7,3 +7,6 @@
 # 코스피 200 과제 링크 
 - http://www.paxnet.co.kr/stock/sise/KOSPI200
 - 콘솔 지우기     display.clear_output()
+
+# 파이썬 링크 
+-https://www.python.org/ftp/python/3.11.1/python-3.11.1-amd64.exe
