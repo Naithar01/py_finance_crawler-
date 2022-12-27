@@ -10,3 +10,7 @@
 
 # 파이썬 링크 
 -https://www.python.org/ftp/python/3.11.1/python-3.11.1-amd64.exe
+
+# 한남
+https://weseb.com/SJB/board.php?board=apartment&command=body&no=222
+https://www.aptrank.com/apt_detail.php?aptnameuid=195
